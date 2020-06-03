@@ -1,0 +1,70 @@
+/* make some space at bottom */
+body.gclutter_ui .aeF {
+  margin-bottom: 50px;
+}
+
+/* hide hamburger on the left */
+body.gclutter_ui .gb_Xb {
+  display: none;
+}
+
+/* hide gmail logo and text */
+body.gclutter_ui a[href="#inbox"] {
+  display: none;
+}
+
+/* hide google apps */
+body.gclutter_ui .gb_Hd {
+  display: none;
+}
+
+/* hide support  */
+body.gclutter_ui .gb_fe.gb_yd {
+  display: none;
+}
+
+/* hide categories from sidemenu */
+body.gclutter_ui div[data-tooltip="Categories"] {
+  display: none;
+}
+
+/* hide snoozed */
+body.gclutter_ui div[data-tooltip="Snoozed"] {
+  display: none;
+}
+
+/* hide right sidepanel */
+body.gclutter_ui div[aria-label="Side panel"],
+div[aria-label="Toggle side panel"] {
+  display: none;
+}
+
+/* hide hangouts */
+body.gclutter_ui div[aria-label="Hangouts"] {
+  display: none;
+}
+
+/* hide pull down */
+body.gclutter_ui .aeQ {
+  display: none;
+}
+
+/* hide icons */
+body.gclutter_ui .zo {
+  display: none;
+}
+
+/* hide avatar */
+body.gclutter_ui .gb_D {
+  display: none;
+}
+
+/* make searchbar full width */
+body.gclutter_ui .gb_6e {
+  max-width: 100%;
+}
+
+/* add more padding around searchbar */
+body.gclutter_ui .gb_sa:not(.gb_ta) .gb_0d {
+  padding: 20px;
+}
